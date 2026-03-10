@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kepegawaian</title>
+
+  <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=1cMQXNoAjr-fT1E604xqD4-sIYaJRogoo" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://drive.google.com/thumbnail?id=1cMQXNoAjr-fT1E604xqD4-sIYaJRogoo" />
+  <link rel="icon" sizes="192x192" href="https://drive.google.com/thumbnail?id=1cMQXNoAjr-fT1E604xqD4-sIYaJRogoo" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #eee;
+      overflow: hidden; /* Mencegah scroll ganda */
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbySV6eBxCUVNyXgF-HAJ8ImbjQXFy4dfFpX2puCxpUUxmZvP0XVs0HVYnXjTKLy4WM/exec"
+      scrolling="yes"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allow="fullscreen; camera; microphone; display-capture; geolocation;">
+    </iframe>
+  </div>
+</body>
+</html>
